@@ -1,0 +1,48 @@
+# 🐍 Archivos generados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# 🛠 Archivos de entorno virtual
+venv/
+.env
+.env.local
+.envrc
+*.venv
+Pipfile.lock
+poetry.lock
+
+# 🏗 Archivos de compilación
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 🔍 Archivos de caché y logs
+*.log
+*.cache
+logs/
+*.sqlite
+db.sqlite3
+*.db
+instance/
+
+# 🔍 Configuraciones de IDEs y editores de código
+.vscode/
+.idea/
+*.iml
+
+# ⚡ Dependencias y paquetes de Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Docker y contenedores (si usas Docker)
+docker-compose.override.yml
+.dockerignore
+
+# 🔄 Archivos de control de versiones innecesarios
+*.bak
+.DS_Store
